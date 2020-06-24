@@ -19,7 +19,6 @@ $errors = [];
 $message = "";
 // check formule domande conge
 if (isset($_POST['ajouter'])) :
-    global $connect;
     // check the information
     $date_début = htmlentities($_POST['date_début']);
     $date_fin = htmlentities($_POST['date_fin']);
